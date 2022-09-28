@@ -1,6 +1,12 @@
 # OOSLA-Prediction
 
 
+## Static features 
+
+Static features extracted from bug reports are the most popular group of features for predicting bug resolution time, so we use prediction model built using static features introduced by Zhang et al.~\cite{zhang2013predicting} as the baseline. The static features contains the bug report Submitter, Owner, Severity, Priority, ESC indicating whether the bug is externally discovered (reported by end-users) or an internally discovered bug (reported by QA team), Category of the bug, and the Summary of the bug reports. 
+
+Their F1 score was 0.728 to predict whether a bug report can be closed within the assigned time. The static features proposed by Zhang et al. included:
+
 | **Feature name** | **Description**                                                                                                                    |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Submitter        | the bug report submitter                                                                                                           |
