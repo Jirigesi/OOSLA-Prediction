@@ -19,5 +19,5 @@ Their F1 score was 0.728 to predict whether a bug report can be closed within th
 
 ## Dynamic and Contextual Features
 
-The experimental results from Kikas et al.~\cite{kikas2016using} indicate that their selected features outperformed existing prediction approaches. Thus, we consider contextual and dynamic features introduced by Kikas et al.~\cite{kikas2016using} as another baseline for our evaluation. Below are the dynamic and contextual features that Kikas et al. used:
+The experimental results from Kikas et al.\cite{kikas2016using} indicate that their selected features outperformed existing prediction approaches. Thus, we consider contextual and dynamic features introduced by Kikas et al.\cite{kikas2016using} as another baseline for our evaluation. Below are the dynamic and contextual features that Kikas et al. used:
 
