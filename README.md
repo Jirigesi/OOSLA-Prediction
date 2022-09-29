@@ -4,8 +4,9 @@ This repository hosts the companian experiment results for paper "Out of Time: A
 
 Below is the overview of our proposed feature extraction process and extrated features from bug reports to predict the report close time.
 
-![alt text](https://github.com/Jirigesi/OOSLA-Prediction/blob/main/framework.png?raw=true)
-
+<p align="center">
+  <img src="https://github.com/Jirigesi/OOSLA-Prediction/blob/main/framework.png" width="750" title="hover text">
+</p>
 
 ## Comparison features
 Below we present the details of the static features, contextual and dynamic features that researchers proposed for bug report close time prediction. 
@@ -62,5 +63,5 @@ We built an alert system for eBay  based on our prediction model which will send
 
 
 <p align="center">
-  <img src="https://github.com/Jirigesi/OOSLA-Prediction/blob/main/OOSLA_ratio.png" width="850" title="hover text">
+  <img src="https://github.com/Jirigesi/OOSLA-Prediction/blob/main/OOSLA_ratio.png" width="750" title="hover text">
 </p>
