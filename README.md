@@ -1,5 +1,9 @@
 # OOSLA-Prediction
 
+This repository hosts the companian experiment results for paper "Out of Time: A Case Study of Using Team and Modification Representation Learning for Improving Bug Report Resolution Time Prediction in eBay". In this study, we compared the state-of-the-art bug report features that were proposed for bug report close time prediction with the features proposed by us. 
+
+![alt text](https://github.com/Jirigesi/OOSLA-Prediction/blob/main/framework.pdf?raw=true)
+
 
 ## Static features 
 
