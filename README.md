@@ -60,9 +60,7 @@ The experimental results from Kikas et al.\cite{kikas2016using} indicate that th
 We built an alert system for eBay  based on our prediction model which will send a reminder message to the responsible developer when the model predicts that a report will not be resolved within the specified time. From the below experiment result, we can observe the bug report prediction model can help company reduce the number of OOSLA reports. 
 
 
-![alt text](https://github.com/Jirigesi/OOSLA-Prediction/blob/main/OOSLA_ratio.png?raw=true)
 
 <p align="center">
-  <img src="https://github.com/Jirigesi/OOSLA-Prediction/blob/main/OOSLA_ratio.png" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="https://github.com/Jirigesi/OOSLA-Prediction/blob/main/OOSLA_ratio.png" width="850" title="hover text">
 </p>
