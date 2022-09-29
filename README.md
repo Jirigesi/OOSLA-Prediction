@@ -1,6 +1,8 @@
-# Team and Modification Representation Learning for Bug Reports
+# Team involvement and modification evolution history representation Learning on Bug Reports
 
 This repository hosts the companian experiment results for paper "Out of Time: A Case Study of Using Team and Modification Representation Learning for Improving Bug Report Resolution Time Prediction in eBay". In this study, we compared the state-of-the-art bug report features that were proposed for bug report close time prediction with the features proposed by us. 
+
+Folder "static_features" contains experimental result notebooks using static features, folder "contextual_dynamic_feature" contains experimental result notebooks using contextual and dynamic features, and folder "evolution_features" contains experimental results notebooks where our proposed bug report team participated and modified evolutionary history representations feature.
 
 Below is the overview of our proposed feature extraction process and extrated features from bug reports to predict the report close time.
 
