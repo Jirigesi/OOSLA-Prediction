@@ -3,7 +3,7 @@
 
 ## Static features 
 
-Static features extracted from bug reports are the most popular group of features for predicting bug resolution time, so we use prediction model built using static features introduced by Zhang et al.~\cite{zhang2013predicting} as the baseline. The static features contains the bug report Submitter, Owner, Severity, Priority, ESC indicating whether the bug is externally discovered (reported by end-users) or an internally discovered bug (reported by QA team), Category of the bug, and the Summary of the bug reports. 
+Static features extracted from bug reports are the most popular group of features for predicting bug resolution time, so we use prediction model built using static features introduced by Zhang et al.~\cite{zhang2013predicting} as the baseline. Paper: “Predicting bug-fixing time: an empirical study of commercial software projects,” in 2013 35th International Conference on Software Engineering (ICSE). The static features contains the bug report Submitter, Owner, Severity, Priority, ESC indicating whether the bug is externally discovered (reported by end-users) or an internally discovered bug (reported by QA team), Category of the bug, and the Summary of the bug reports. 
 
 Their F1 score was 0.728 to predict whether a bug report can be closed within the assigned time. The static features proposed by Zhang et al. included:
 
@@ -19,7 +19,7 @@ Their F1 score was 0.728 to predict whether a bug report can be closed within th
 
 ## Dynamic and Contextual Features
 
-The experimental results from Kikas et al.\cite{kikas2016using} indicate that their selected features outperformed existing prediction approaches. Thus, we consider contextual and dynamic features introduced by Kikas et al.\cite{kikas2016using} as another baseline for our evaluation. Below are the dynamic and contextual features that Kikas et al. used:
+The experimental results from Kikas et al.\cite{kikas2016using} indicate that their selected features outperformed existing prediction approaches. Paper: “Using dynamic and contextual features to predict issue lifetime in github projects,” in 2016 ieee/acm 13th working conference on mining software repositories. We use contextual and dynamic features introduced by Kikas et al.\cite{kikas2016using} as another baseline for our evaluation. Below are the dynamic and contextual features that Kikas et al. used:
 
 | **Category**                          | **Feature name**                   | **Description**                                                                                                                                               |
 |---------------------------------------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
