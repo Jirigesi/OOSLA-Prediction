@@ -1,4 +1,4 @@
-# OOSLA-Prediction
+# Team and Modification Representation Learning for Bug Reports
 
 This repository hosts the companian experiment results for paper "Out of Time: A Case Study of Using Team and Modification Representation Learning for Improving Bug Report Resolution Time Prediction in eBay". In this study, we compared the state-of-the-art bug report features that were proposed for bug report close time prediction with the features proposed by us. 
 
@@ -56,7 +56,7 @@ The experimental results from Kikas et al.\cite{kikas2016using} indicate that th
 |                                       | nCommitsProjectT                   | number of commits in the project during the period of 2 weeks before the bug creation until the observation point time.                                       |
 
 
-## The result of deploying predictive models on reducing OOSLA reports in eBay
+## The result of deploying predictive models on reducing Out of SLA (OOSLA) reports in eBay
 
 We built an alert system for eBay  based on our prediction model which will send a reminder message to the responsible developer when the model predicts that a report will not be resolved within the specified time. From the below experiment result, we can observe the bug report prediction model can help company reduce the number of OOSLA reports. 
 
