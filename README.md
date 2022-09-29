@@ -63,5 +63,5 @@ We built an alert system for eBay  based on our prediction model which will send
 
 
 <p align="center">
-  <img src="https://github.com/Jirigesi/OOSLA-Prediction/blob/main/OOSLA_ratio.png" width="750" title="hover text">
+  <img src="https://github.com/Jirigesi/OOSLA-Prediction/blob/main/OOSLA_ratio.png" width="650" title="hover text">
 </p>
