@@ -27,7 +27,7 @@ Their F1 score was 0.728 to predict whether a bug report can be closed within th
 | Category         | the category of the bug (such as Account management, Documentation, Configuration, etc.).                                          |
 | Summary          | a short description of the bug.                                                                                                    |
 
-## Dynamic and Contextual Features
+### Dynamic and Contextual Features
 
 The experimental results from Kikas et al.\cite{kikas2016using} indicate that their selected features outperformed existing prediction approaches. Paper: “Using dynamic and contextual features to predict issue lifetime in github projects,” in 2016 ieee/acm 13th working conference on mining software repositories. We use contextual and dynamic features introduced by Kikas et al.\cite{kikas2016using} as another baseline for our evaluation. Below are the dynamic and contextual features that Kikas et al. used:
 
@@ -53,3 +53,12 @@ The experimental results from Kikas et al.\cite{kikas2016using} indicate that th
 |                                       | nbugsCreatedInProjectT             | number of bugs created in the project during the period of 2 weeks before the bug creation until the observation point time.                                  |
 |                                       | nbugsCreatedInProjectClosedT       | number of bugs created and closed in the project during the period of 2 weeks before the bug creation until the observation point time.                       |
 |                                       | nCommitsProjectT                   | number of commits in the project during the period of 2 weeks before the bug creation until the observation point time.                                       |
+
+
+## The result of deploying predictive models on reducing OOSLA reports in eBay
+
+We built an alert system for eBay  based on our prediction model which will send a reminder message to the responsible developer when the model predicts that a report will not be resolved within the specified time. From the below experiment result, we can observe the bug report prediction model can help company reduce the number of OOSLA reports. 
+
+
+![alt text](https://github.com/Jirigesi/OOSLA-Prediction/blob/main/OOSLA_ratio.png?raw=true)
+
